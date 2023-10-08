@@ -1,23 +1,25 @@
 body {
-	background-image: url("Camera.jpg");
-	background-size: 300px 300px;
+	background-image: url("pastel.jpg");
 	background-repeat: no-repeat;
-	background-position: 550px 230px;
+	background-position: center;
+	background-size: cover;
+	height: 100vh; /*google is my friend. I wanted to make it fit*/
+	width: 100vh;
 }
 
 h1 {
 	text-align: center;
-	background-color: pink; /*hex coding later*/
+	background-color: #fff5ee;
 	font-family: Arial;
 	border: 2px dotted blue;
-	padding: 10px 10px 15px 15px;
+	padding: 10px 15px;
 	width: 250px;
 	margin-bottom: 20px;
 }
 
 p {
   	text-align: justify;
-	background-color: pink; /*HSL format later*/
+	background-color: hsl(25, 100%, 97%);
   	font-style: italic;
   	padding: 20px;
 	border-width: 3px;
@@ -26,9 +28,11 @@ p {
 	width: 500px;
 }
 
+
 span {
   	font-weight: bold;
   	font-style: italic;
-	color: blue; /*RGB later*/
-  	margin: 2px 5px;
+	color: rgb(227, 115, 131);
+  	margin-right: 5px;
+	margin-left: 2px;
 }
